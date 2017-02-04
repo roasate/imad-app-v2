@@ -12,11 +12,12 @@ app.get('/1',function(req,res){
     res.sendFile(path.join(__dirname,'ui','article1.html'));
 });
 app.get('/2',function(req,res){
-    res.send("Artcle2");
+    res.sendFile(path.join(__dirname,'ui','article2.html'));
 });
 app.get('/3',function(req,res){
-    res.send("Article3");
+    res.sendFile(path.join(__dirname,'ui','article3.html'));
 });
+
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
