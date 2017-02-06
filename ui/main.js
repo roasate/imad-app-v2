@@ -2,10 +2,10 @@
 //capture name
 var nameInput =document.getElementById('name');
 var value =nameInput.value();
-var button=document.getElementById('k');
-alert(button.value);
+var button1 =document.getElementById('k');
+alert(button1.value);
 //var buttonValue=button.value;
-button.oncLick=function()
+button1.oncLick=function()
 {
   //should request to the server and retrieve the name
   //capture a list of mails and render it as a list
