@@ -2,7 +2,7 @@
 //capture name
 var nameInput =document.getElementById('name');
 var value =nameInput.value;
-var button=document.getElementById('submit');
+var button=document.getElementById('submitBtn');
 var buttonValue=button.value;
 button.onCLick=function()
 {
