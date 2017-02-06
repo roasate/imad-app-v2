@@ -1,9 +1,9 @@
 //alert('Loaded!');
 //capture name
 var nameInput =document.getElementById('name');
-var value =nameInput.value;
-alert(value);
+var value =nameInput.value();
 var button=document.getElementById('k');
+alert(button.value);
 //var buttonValue=button.value;
 button.oncLick=function()
 {
