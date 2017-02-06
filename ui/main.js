@@ -14,6 +14,7 @@ button.onCLick=function()
   {
       list<='<li>'+names[i]+'</li>';
   }
+  alert(list);
   var result=document.getElementById('nameList');
   result.innerHtml=list;
 };
