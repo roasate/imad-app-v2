@@ -10,6 +10,7 @@ button.oncLick=function()
   //capture a list of mails and render it as a list
   var names=['Rohit','Aswathi','Adarsh','Sheeja','Prakash'];
   var list='';
+  alert('hi');
   for(var i=0;i<names.length;++i)
   {
       list<-'<li>'+names[i]+'</li>';
