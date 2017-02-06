@@ -1,9 +1,9 @@
-alert('Loaded!');
+//alert('Loaded!');
 //capture name
 var nameInput =document.getElementById('name');
 var value =nameInput.value;
-var button=document.getElementById('submitBtn');
-var buttonValue=button.value;
+var button=document.getElementById('k');
+//var buttonValue=button.value;
 button.oncLick=function()
 {
   //should request to the server and retrieve the name
