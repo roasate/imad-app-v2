@@ -2,6 +2,7 @@
 //capture name
 var nameInput =document.getElementById('name');
 var value =nameInput.value;
+alert(value);
 var button=document.getElementById('k');
 //var buttonValue=button.value;
 button.oncLick=function()
