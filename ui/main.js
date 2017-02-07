@@ -1,4 +1,4 @@
-alert('Loaded!');
+//alert('Loaded!');
 //capture name
 var nameInput =document.getElementById('name');
 var value =nameInput.value();
