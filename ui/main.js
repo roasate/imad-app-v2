@@ -18,5 +18,5 @@ button1.oncLick=function()
   }
   alert(list);
   var result=document.getElementById('nameList');
-  result.innerHtml=list;
+  result.innerHTML=list;
 };
