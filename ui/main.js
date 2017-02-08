@@ -2,5 +2,5 @@
 function my()
 {
     var array =['hello'];
-    alert(array.string());
+    alert(array);
 }
