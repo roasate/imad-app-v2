@@ -6,7 +6,7 @@ function my()
     var list ='';
     for(i=0;i<array.length;++i)
     {
-        list = li+'<li>'+array[i]+'</li>';
+        list = li.'<li>'+array[i]+'</li>';
     }
     alert(list);
 }
