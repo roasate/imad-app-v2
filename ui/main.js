@@ -8,5 +8,6 @@ function my()
     {
         list+='<li>'+array[i]+'</li>';
     }
-    alert(list);
+    var name=document.getElementById("nameList");
+    name.innerHTML=list;
 }
