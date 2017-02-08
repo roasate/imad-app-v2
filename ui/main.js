@@ -1,5 +1,6 @@
 //alert('hello');
 function my()
 {
-    alert("hi");
+    var array =['hello'];
+    alert(array.string());
 }
