@@ -8,4 +8,5 @@ function my()
     {
         list <= '<li>'+array[i]+'</li>';
     }
+    alert(list);
 }
