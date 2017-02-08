@@ -1,5 +1,5 @@
 //alert('hello');
-my()
+function my()
 {
     alert("hi");
 }
